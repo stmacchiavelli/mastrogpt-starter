@@ -3,5 +3,5 @@ sys.path.append("packages/smacchiavelli/reverse")
 import reverse
 
 def test_reverse():
-    res = reverse.reverse({})
-    assert res["output"] == "reverse"
+    res = reverse.reverse({"input" : "ciao"})
+    assert res["output"] == "oaic"
